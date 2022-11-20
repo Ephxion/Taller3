@@ -55,12 +55,16 @@ impl PerimetroArea for Triangulo2D {
 
     fn calcular_area(&self) -> f32 {
 
-        let a: f32 = self.poligono.get_vector_vertices()[0].calcular_distancia(self.poligono.get_vector_vertices()[1]);
-        let b: f32 = self.poligono.get_vector_vertices()[1].calcular_distancia(self.poligono.get_vector_vertices()[2]);
-        let c: f32 = self.poligono.get_vector_vertices()[0].calcular_distancia(self.poligono.get_vector_vertices()[2]);
-        let s: f32 = (a + b + c)/2.0;
+        if self.es_triangulo(){
 
-        return (s * (s - a) * (s - b) * (s - c)).sqrt()
+            let a: f32 = self.poligono.get_vector_vertices()[0].calcular_distancia(self.poligono.get_vector_vertices()[1]);
+            let b: f32 = self.poligono.get_vector_vertices()[1].calcular_distancia(self.poligono.get_vector_vertices()[2]);
+            let c: f32 = self.poligono.get_vector_vertices()[0].calcular_distancia(self.poligono.get_vector_vertices()[2]);
+            let s: f32 = (a + b + c)/2.0;
+
+            return (s * (s - a) * (s - b) * (s - c)).sqrt()
+
+        } else { return 0.0; }
     }
 
     fn crear_poligono() -> Poligono2D {
