@@ -42,7 +42,7 @@ debido a que debe existir la misma distancia entre los vertices para formar un c
 Tambien podemos calcular el perimetro, y en caso de que los vertices formen un cuadrado podemos calcular el area de este, en caso contrario la funcion devuelve el valor 0.0 (tipo f32).
 ```
 
-Instalacion
+# Instalacion
 
 para instalar y correr el programa lo unico que hay que hacer es clonarlo, tener instalado rust/cargo y utilizar cargo run.
 
