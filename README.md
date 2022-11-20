@@ -41,19 +41,13 @@ Nos permite comprobar que los vertices del Cuadrado2D formen realmente un cuadra
 debido a que debe existir la misma distancia entre los vertices para formar un cuadrado.
 Tambien podemos calcular el perimetro, y en caso de que los vertices formen un cuadrado podemos calcular el area de este, en caso contrario la funcion devuelve el valor 0.0 (tipo f32).
 ```
-Installing the requirements
 
-to install the requirements you just need to run:
+Instalacion
 
-```
-python -m pip install -r requirements.txt
-```
-
-Now you need to create a .env file, to store your bot token and guild id:
+para instalar y correr el programa lo unico que hay que hacer es clonarlo, tener instalado rust/cargo y utilizar cargo run.
 
 ```
-TOKEN=your_bot_token
-GUILD_ID=your_guild_id
+git clone https://github.com/Ephxion/Taller3
+cd Taller3/src/
+cargo run
 ```
-And that's all, now you can run the bot and start testing with it.
-Hope this template helped you!
