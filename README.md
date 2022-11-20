@@ -24,8 +24,8 @@ ContornoGrafico2D
 ```
 Struct con 3 fields, nombre_contorno de tipo String, num_puntos de tipo i32 y vector_puntos de tipo Vec<Punto2D>.
 nos permite leer un ContornoGrafico2D desde un archivo o grabarlo en uno.
-#
 ```
+#
 Poligono2D
 ```
 Struct base para las clases Triangulo2D y Cuadrado2D, posee 2 fields, un num_vertices de tipo i32 y un vector_vertices de tipo Vec<Punto2D>.
