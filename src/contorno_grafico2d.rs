@@ -3,10 +3,7 @@ use std::io::BufReader;
 use std::io::prelude::*;
 use std::fs::File;
 use crate::Punto2D;
-<<<<<<< HEAD
 use crate::PuntoGrafico2D;
-=======
->>>>>>> f6cf96c46e83a6e14e693f4ab96e4d98b89af317
 
 #[derive(Debug)]
 pub struct ContornoGrafico2D {
@@ -154,7 +151,6 @@ impl ContornoGrafico2D{
         }
         true
     }
-<<<<<<< HEAD
 
     // Calculamos la centroide del poligono y devolvemos un PuntoGrafico2D con los valores de posicion del centroide obtenido.
     pub fn calcular_centroide(&self) -> PuntoGrafico2D{
@@ -169,6 +165,4 @@ impl ContornoGrafico2D{
         }
         return PuntoGrafico2D::new(x/z, y/z, String::from("Centroide"), 10)
     }
-=======
->>>>>>> f6cf96c46e83a6e14e693f4ab96e4d98b89af317
 }
