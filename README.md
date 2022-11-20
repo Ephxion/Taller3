@@ -1,12 +1,14 @@
 # Taller N° 3 - Rust
 Taller de rust realizado con structs y traits para simular herencia a traves de composicion, y el uso de los traits para simular herencia de metodos entre clases.
 
+#
 Punto2D
 ```
 Structs el cual cuenta con 2 fields de tipo f32, los cuales corresponden a la posicion en X e Y,
 Posee un constructor parametrizado, de copia y uno con valores default,
 Nos permite calcular la distancia entre 2 Puntos2D
 ```
+#
 Recta2D
 ```
 Structs el cual posee 3 fields de tipo f32, los cuales representan los coeficientes a, b y c de la Recta2D.
