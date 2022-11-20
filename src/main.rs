@@ -43,7 +43,10 @@ fn main() {
     punto_grafico1.escribir_punto_grafico2d();
     println!("========================================================");
     contorno1.escribir_contorno_grafico();
+<<<<<<< HEAD
     println!("Calcular centroide: {:?}", contorno1.calcular_centroide());
+=======
+>>>>>>> f6cf96c46e83a6e14e693f4ab96e4d98b89af317
     println!("========================================================");
     println!("Poligono correspondiente al triangulo: {:?}", triangulo1.get_poligono());
     println!("Es triangulo ?: {:?}", triangulo1.es_triangulo());
